@@ -11,6 +11,7 @@ Group:          System/Configuration/Networking
 URL:		http://openresources.info.ucl.ac.be/rsip/index.php
 Source0:	%{name}-%{version}.tar.bz2
 Requires:   python
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Buildarch:	noarch
 
 %description
