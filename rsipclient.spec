@@ -1,6 +1,6 @@
 %define	name	rsipclient
 %define version 0.20
-%define release %mkrel 3
+%define release %mkrel 5
 
 Summary:	A Python client to contact rsipd server
 Name:		%{name}
